@@ -11,6 +11,7 @@ python manage.py createsuperuser
 pip install coverage
 pip freeze > requirements.txt
 coverage run --omit='*/env/*' manage.py test
+coverage report
 coverage html
 python manage.py startapp profile
 python manage.py makemigrations
