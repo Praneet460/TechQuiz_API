@@ -32,8 +32,24 @@ Listing the features of the API
     }   
     ```
 
+- <b>Search Profiles</b>
+    - <b>GET</b>
+    ```http://localhost:8000/api/search/testuser2```
+    ```
+    {
+        "id": 3,
+        "user": {
+            "user_name": "testuser2",
+            "email": "testuser2@gmail.com"
+        },
+        "about": "Hello, I am testuser2.",
+        "location": "India",
+        "birth_date": "2021-01-01",
+        "gender": "Male"
+    }
+    ```
 ### Upcoming Features
 Listing the upcoming features of the API
-- Profile Model API Endpoints
+- Profile Model API Endpoints (Update Profile)
 - Create Tech Quiz Model
 - Tech Quiz Model API Endpoints
