@@ -11,6 +11,14 @@ Listing the features of the API
 
 ### API EndPoints
 
+API Endpoints defines the structure of the API and how end users access data from our application using the HTTP methods - GET, POST, PUT, DELETE.
+
+| Endpoint | HTTP Method | CURD Method | Result |
+|---|---|---|---|
+| ```user/register``` | POST | CREATE | Create a new user |
+| ```token```  | POST | CREATE | Create auth token |
+| ```search/:username```  | GET  | READ  | Get a user profile |
+
 - <b>User Registration</b> (Creating a New User)
     - <b>POST</b> 
     ```http://localhost:8000/api/user/register/```
